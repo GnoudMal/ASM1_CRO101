@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import MenuComponent from './source/views'
 
-const App = () => {
-  return (
-    <MenuComponent />
-  )
+const Cart = () => {
+    return (
+        <View>
+            <Text>Cart</Text>
+        </View>
+    )
 }
 
-export default App
+export default Cart
 
 const styles = StyleSheet.create({})
